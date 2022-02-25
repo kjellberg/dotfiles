@@ -4,7 +4,7 @@ filetype off                  " required
 " Write swp files to /tmp instead of current directory
 set swapfile
 set dir=/tmp
-set guifont=Monaco
+set guifont=SpaceMono\ Nerd\ Font:h13
 
 " Don't wrap long lines
 set nowrap           " do not automatically wrap on load
