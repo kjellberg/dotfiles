@@ -12,7 +12,7 @@ Just [kjellberg](https://github.com/kjellberg)'s dotfiles.
 2. Symlink configs
 
     ```
-    ln -s ~/Development/dotfiles/vimrc ~/.vimrc
+    ln -s ~/Development/dotfiles/vim/vimrc ~/.vimrc
     ```
 
 3. Install Homebrew
