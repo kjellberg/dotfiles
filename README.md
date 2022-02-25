@@ -22,7 +22,6 @@ Just [kjellberg](https://github.com/kjellberg)'s dotfiles.
     ```
     ln -s ~/Development/dotfiles/zsh/zshrc ~/.zshrc
     ln -s ~/Development/dotfiles/vim/vimrc ~/.vimrc
-    ln -s ~/Development/dotfiles/zsh/themes/excid3.zsh-theme ~/.oh-my-zsh/themes/excid3.zsh-theme
     ```
 
 4. Install plugins
