@@ -6,7 +6,7 @@ ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
-ZSH_THEME="eastwood"
+ZSH_THEME="robbyrussell"
 
 # Create an alias for easy Oh My ZSH configuration.
 
@@ -41,8 +41,8 @@ export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
 export PATH="/Users/rasmus/.composer/vendor/bin:$PATH"
 
 # Custom aliases
-alias ohmyzsh="mvim ~/.oh-my-zsh"
-alias dotfiles="mvim ~/Development/dotfiles"
+alias ohmyzsh="cd ~/.oh-my-zsh" # Local instead of editing.
+alias dotfiles="cd ~/Development/dotfiles"
 alias ll="ls -alh"
 alias rs="./bin/dev"
 
