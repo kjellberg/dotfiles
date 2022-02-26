@@ -17,6 +17,12 @@ Just [kjellberg](https://github.com/kjellberg)'s dotfiles.
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ```
 
+3. Install application & tools
+
+    ```
+    brew install asdf
+    ```
+
 3. Symlink configs
 
     ```
