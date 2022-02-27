@@ -30,8 +30,9 @@ Just [kjellberg](https://github.com/kjellberg)'s dotfiles.
     ln -s ~/Development/dotfiles/vim/vimrc ~/.vimrc
     ```
 
-4. Install plugins
+4. Install VIM plugins
 
     ```
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     vim +PluginInstall +qall
     ```
