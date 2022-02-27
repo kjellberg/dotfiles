@@ -29,7 +29,7 @@ export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 
 # To link Rubies to Homebrew's OpenSSL 1.1 (which is upgraded):
-# export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
 # Golang
 export GOPATH=$HOME/go
@@ -44,7 +44,6 @@ export PATH="/Users/rasmus/.composer/vendor/bin:$PATH"
 alias ohmyzsh="cd ~/.oh-my-zsh" # Local instead of editing.
 alias dotfiles="cd ~/Development/dotfiles"
 alias ll="ls -alh"
-alias rs="./bin/dev"
 
 # GPG key
 export GPG_TTY=$(tty)
