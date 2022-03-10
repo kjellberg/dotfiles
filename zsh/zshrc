@@ -37,6 +37,8 @@ export PATH="/Users/rasmus/.composer/vendor/bin:$PATH"
 alias ohmyzsh="cd ~/.oh-my-zsh" # Local instead of editing.
 alias dotfiles="cd ~/Development/dotfiles"
 alias ll="ls -alh"
+alias rdev="./bin/dev"
+
 
 # GPG key
 export GPG_TTY=$(tty)
